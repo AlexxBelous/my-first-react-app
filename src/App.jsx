@@ -1,21 +1,12 @@
-const Card = ({title}) => {
+import React from "react";
+
+const App = () => {
     return (
-        <div className="card">
-            <h2>{title}</h2>
+        <div>
+            <h1 className="text-3xl font-bold underline">Hello</h1>
         </div>
     );
 }
 
 
-const App = () => {
-    return (
-        <div className="card-container">
-            <Card title="Star Wars" rating={5} isCool={true}/>
-            <Card title="Avatar"/>
-            <Card title="The Lion King"/>
-        </div>
-
-    )
-}
-
-export default App
+export default App;
